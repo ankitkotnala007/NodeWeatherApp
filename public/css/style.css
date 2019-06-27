@@ -1,0 +1,104 @@
+body {
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+ 
+  .ghost-input  {
+    font-family: Ultra;
+    display: block;
+    font-weight:300;
+    font-size: 20px;
+    border:0px;
+    outline: none;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #4b545f;
+    background: #fff;
+    font-family: Ubuntu Mono;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+
+  }
+  .ghost-input:focus {
+    border-bottom:1px solid #ddd;
+  }
+  .ghost-button {
+    background-color: transparent;
+    border:2px solid #ddd;
+    margin-top: 10px;
+    width: 24%;
+    margin-left: 14%;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+  .ghost-button:hover {
+    border:2px solid #515151;
+  }
+  p {
+    color: #E64A19;
+  }
+
+  .header{
+    align-items: center;
+    background: whitesmoke;
+    padding-top: 1%;
+    padding-bottom: 20px;
+    box-shadow: 1px 1px 1px 1px #838383;
+    border-bottom:1px solid black;
+  }
+
+  .main-panel{
+    background:transparent;
+    padding: 2%;
+    margin-left: 20%;
+    
+  }
+  
+  .refresh_btn{
+   background: transparent;
+   border: transparent;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px #838383;
+  }
+  .refresh_btn:hover{
+    
+  }
+
+  .main-pane{
+    border-radius: 2px;
+    background: #212425;
+    box-shadow: 4px 4px 4px 4px #212425;
+    padding: 10px;
+
+
+
+  }
+  .main-bottom{
+    margin: auto;
+
+  }
+  .main-side-pane{
+    background: #212425;
+     box-shadow: 4px 4px 4px 4px #212425;
+    margin: 5px;
+    border-radius: 4px;
+  }
+
+  .main-side-pane:hover{
+    background: #3e4446;
+     box-shadow: 4px 4px 4px 4px #3e4446;
+  }
+.main-pannel-bottom{
+   background:transparent;
+    margin: auto;
+    padding-left: 23%;
+}
