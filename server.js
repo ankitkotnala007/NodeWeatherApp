@@ -58,7 +58,7 @@ app.post("/refresh", (req, res) => {
         res.render('index.ejs', { weather_data: null, error: err })
     })
 })
-app.listen(3000, function () {
-    console.log('Server listening at port 3000!');
+app.listen(8080, function () {
+    console.log('Server listening at port 8080!');
 })
 
